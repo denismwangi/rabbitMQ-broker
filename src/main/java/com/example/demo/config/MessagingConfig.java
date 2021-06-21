@@ -8,7 +8,10 @@ import org.springframework.amqp.core.TopicExchange;
 import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
+/**
+ * @Author denis
+ * 21/6/2021
+ */
 @Configuration
 public class MessagingConfig {
 
